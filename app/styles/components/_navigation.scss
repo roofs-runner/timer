@@ -1,0 +1,26 @@
+$link-color: #449dd8;
+
+.top-bar {
+    background-color: $nav-background-color;
+    ul {
+        background-color: $nav-background-color;
+    }
+
+    a {
+        color: $link-color;
+    }
+    .active {
+        font-weight: 700;
+    }
+
+    .menu {
+        > .menu-text > a {
+            display: inline;
+            padding: 0;
+        }
+    }
+
+    .menu-text {
+        color: $nav-text-color;
+    }
+}
