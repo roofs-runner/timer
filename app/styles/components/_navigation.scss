@@ -23,4 +23,8 @@ $link-color: #449dd8;
     .menu-text {
         color: $nav-text-color;
     }
+
+    .active-link {
+        font-weight: 800;
+    }
 }
